@@ -36,7 +36,7 @@
 
 ![lena_gray_noise](https://user-images.githubusercontent.com/46603429/144723206-f956c698-da9a-47a7-b180-ca4be8a86a58.png)
 
-результат применения медианного фильтра
+результат применения медианного фильтра 5x5
 
 ![lena_gray_median](https://user-images.githubusercontent.com/46603429/144723495-d8510447-a493-4fce-a834-c2761005b3b5.png)
 
@@ -44,7 +44,7 @@
 # Задача №2. расчет гистограммы яркости .
 гистограмма выводится в нормализованном виде.
 
-- путь к программе src/median.cu
+- путь к программе src/histogram.cu
 - компиляция nvcc -arch sm_61 histogram.cu -o 3
 - запуск ./3
 вывод
